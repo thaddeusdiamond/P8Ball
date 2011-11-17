@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="f0259871-60af-4774-ac3c-c9c2f263fe5e" Publisher="CN=Thaddeus" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>P8Ball</DisplayName>
+    <PublisherDisplayName>Thaddeus</PublisherDisplayName>
+    <Logo>StoreLogo.png</Logo>
+    <Description>P8Ball</Description>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="p8ball.exe" EntryPoint="P8Ball.App">
+      <VisualElements DisplayName="P8Ball" Logo="Logo.png" SmallLogo="SmallLogo.png" Description="P8Ball" ForegroundText="light" BackgroundColor="#222222" InitialRotationPreference="portrait">
+        <SplashScreen Image="SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="webcam" />
+  </Capabilities>
+</Package>

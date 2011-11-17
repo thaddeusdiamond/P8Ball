@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>bfcd7d9a-e69d-4d8e-bda4-7254aa2874a0</UniqueIdentifier>
+      <Extensions>ico;bmp;dlg;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;resw;resjson</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DRenderer.cpp" />
+    <ClCompile Include="D3DView.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ViewProvider.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="P8Ball.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3DRenderer.h" />
+    <ClInclude Include="D3DView.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ViewProvider.h" />
+    <ClInclude Include="P8Ball.h" />
+    <ClInclude Include="Orientation.h" />
+    <ClInclude Include="Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Logo.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="SmallLogo.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="StoreLogo.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="SplashScreen.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
